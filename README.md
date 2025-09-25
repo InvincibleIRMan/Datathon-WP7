@@ -7,7 +7,7 @@ A collection of beginner-friendly Jupyter notebooks that introduce Variational A
 | File | Description |
 | --- | --- |
 | `DataVisualization.ipynb` | Companion notebook that focuses on exploratory plots for the Iris dataset and mirrors the VAE workflow for presentation-ready visuals. |
-| `TabularVAE_Tutorial_ copy.ipynb` | Main step-by-step tutorial that builds, trains, and samples from a simple VAE using the Iris dataset. |
+| `TabularVAE_Tutorial.ipynb` | Main step-by-step tutorial that builds, trains, and samples from a simple VAE using the Iris dataset. |
 | `Real_toy_data.ipynb` | Minimal scratchpad for loading an external CSV file (update the `data_dir` variable to point to your file). |
 | `environment.yml` | Conda environment specification with PyTorch, scikit-learn, pandas, seaborn, and supporting scientific Python packages. |
 
@@ -43,7 +43,7 @@ This notebook is ideal for experimentation and presentation-ready visuals before
 
 ## Train the VAE
 
-Once you are comfortable with the dataset, move on to `TabularVAE_Tutorial_ copy.ipynb`, the primary learning resource for building the model. It is organised into five sections:
+Once you are comfortable with the dataset, move on to `TabularVAE_Tutorial.ipynb`, the primary learning resource for building the model. It is organised into five sections:
 
 1. **Setup** – Installs/loads PyTorch, pandas, scikit-learn, seaborn, and Matplotlib.
 2. **Load a sample dataset** – Uses the classic Iris dataset, shuffles it, and displays summary statistics.
